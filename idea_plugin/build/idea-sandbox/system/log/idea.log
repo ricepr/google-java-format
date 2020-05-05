@@ -1,0 +1,332 @@
+2020-05-05 17:32:15,426 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-05-05 17:32:15,456 [     30]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@d19c9b4[Running, parallelism = 12, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@49bc9979 
+2020-05-05 17:32:15,536 [    110]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-201.6668.121, 09 Apr 2020 03:09) 
+2020-05-05 17:32:15,537 [    111]   INFO -        #com.intellij.idea.Main - OS: Mac OS X (10.15.3, x86_64) 
+2020-05-05 17:32:15,537 [    111]   INFO -        #com.intellij.idea.Main - JRE: 11.0.6+8-b765.25 (JetBrains s.r.o) 
+2020-05-05 17:32:15,537 [    111]   INFO -        #com.intellij.idea.Main - JVM: 11.0.6+8-b765.25 (OpenJDK 64-Bit Server VM) 
+2020-05-05 17:32:15,537 [    111]   INFO -        #com.intellij.idea.Main - JVM Args: -Dapple.awt.fileDialogForDirectories=true -Dapple.laf.useScreenMenuBar=true -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/Users/Robert/Documents/Code/google-java-format/idea_plugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/Users/Robert/Documents/Code/google-java-format/idea_plugin/build/idea-sandbox/plugins -Didea.required.plugins.id=google-java-format -Didea.smooth.progress=false -Didea.system.path=/Users/Robert/Documents/Code/google-java-format/idea_plugin/build/idea-sandbox/system -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=NZ -Duser.language=en -Duser.variant -ea 
+2020-05-05 17:32:15,537 [    111]   INFO -        #com.intellij.idea.Main - Locale=en_NZ JNU=UTF-8 file.encoding=UTF-8 
+2020-05-05 17:32:15,594 [    168]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 148 ms 
+2020-05-05 17:32:15,845 [    419]   INFO - llij.ide.plugins.PluginManager - Plugin org.intellij.groovy misses optional descriptor duplicates-groovy.xml 
+2020-05-05 17:32:15,846 [    420]   INFO - llij.ide.plugins.PluginManager - Plugin org.intellij.groovy misses optional descriptor duplicates-detection-groovy.xml 
+2020-05-05 17:32:15,929 [    503]   INFO - llij.ide.plugins.PluginManager - Plugin com.intellij.java misses optional descriptor profiler-java.xml 
+2020-05-05 17:32:15,965 [    539]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (201.6668.121), com.intellij.platform.images (201.6668.121), JetBrains Repository Search (201.6668.121), Subversion (201.6668.121), XPathView + XSLT (201.6668.121), XSLT Debugger (201.6668.121), Smali Support (201.6668.121), Configuration Script (201.6668.121), Copyright (201.6668.121), Java (201.6668.121), Bytecode Viewer (201.6668.121), Git (201.6668.121), ChangeReminder (201.6668.121), Next File Prediction (201.6668.121), JUnit (201.6668.121), Task Management (201.6668.121), GitHub (201.6668.121), IntelliLang (201.6668.121), TestNG (201.6668.121), Code Coverage for Java (201.6668.121), Markdown (201.6668.121), Java IDE Customization (201.6668.121), Java Stream Debugger (201.6668.121), Eclipse Interoperability (201.6668.121), Java Bytecode Decompiler (201.6668.121), Gradle (201.6668.121), macOS Light Theme (201.6668.121), Windows 10 Light Theme (201.6668.121), Properties (201.6668.121), Ant (201.6668.121), Groovy (201.6668.121), Maven (201.6668.121), Gradle-Java (201.6668.121), Gradle-Maven (201.6668.121), Java Internationalization (201.6668.121), Kotlin (1.3.71-release-IJ2020.1-1), UI Designer (201.6668.121), Plugin DevKit (201.6668.121), JavaFX (201.6668.121), Resource Bundle Editor (201.6668.121), Machine Learning Code Completion (201.6668.121), Mercurial (201.6668.121), EditorConfig (201.6668.121), Terminal (201.6668.121), Android (10.3.6 RC 1), Shell Script (201.6668.121), TextMate bundles (201.6668.121), YAML (201.6668.121), Grazie (201.6668.121), Settings Repository (201.6668.121) 
+2020-05-05 17:32:15,966 [    540]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: google-java-format (2.0.0.5) 
+2020-05-05 17:32:16,298 [    872]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2020-05-05 17:32:16,315 [    889]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=492; buffer=10; max=492 
+2020-05-05 17:32:16,638 [   1212]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2020-05-05 17:32:16,650 [   1224]   INFO - tellij.util.io.FileChannelUtil - un-interruptible FileChannel-s will be used for indexes 
+2020-05-05 17:32:16,660 [   1234]   INFO - fs.newvfs.persistent.FSRecords - Marking VFS as corrupted: '/Users/Robert/Documents/Code/google-java-format/idea_plugin/build/idea-sandbox/system/caches/names.dat' does not exist 
+2020-05-05 17:32:16,765 [   1339]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is disabled 
+2020-05-05 17:32:16,834 [   1408]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-05-05 17:32:16,849 [   1423]   INFO - stubs.SerializationManagerImpl - Name storage is repaired 
+2020-05-05 17:32:16,866 [   1440]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'FilenameIndex'; old = -1, new = 3 
+2020-05-05 17:32:16,895 [   1469]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'FrameworkDetectionIndex'; old = -1, new = 0 
+2020-05-05 17:32:16,900 [   1474]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'TodoIndex'; old = -1, new = 4107 
+2020-05-05 17:32:16,913 [   1487]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'IdIndex'; old = -1, new = 4112 
+2020-05-05 17:32:16,921 [   1495]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'filetypes'; old = -1, new = 2 
+2020-05-05 17:32:16,926 [   1500]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'Stubs'; old = -1, new = 46 
+2020-05-05 17:32:17,056 [   1630]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'Trigram.Index'; old = -1, new = 4099 
+2020-05-05 17:32:17,060 [   1634]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'fileIncludes'; old = -1, new = 6 
+2020-05-05 17:32:17,117 [   1691]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'DomFileIndex'; old = -1, new = -1189920956 
+2020-05-05 17:32:17,120 [   1694]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'RelaxSymbolIndex'; old = -1, new = 0 
+2020-05-05 17:32:17,124 [   1698]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'XmlTagNames'; old = -1, new = 1 
+2020-05-05 17:32:17,127 [   1701]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'XmlNamespaces'; old = -1, new = 7 
+2020-05-05 17:32:17,130 [   1704]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'html5.custom.attributes.index'; old = -1, new = 1 
+2020-05-05 17:32:17,135 [   1709]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'SchemaTypeInheritance'; old = -1, new = 2 
+2020-05-05 17:32:17,138 [   1712]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'json.file.root.values'; old = -1, new = 5 
+2020-05-05 17:32:17,141 [   1715]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'ImageFileInfoIndex'; old = -1, new = 8 
+2020-05-05 17:32:17,144 [   1718]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'XsltSymbolIndex'; old = -1, new = 0 
+2020-05-05 17:32:17,148 [   1722]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'bytecodeAnalysis'; old = -1, new = 4107 
+2020-05-05 17:32:17,155 [   1729]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.auto.module.name'; old = -1, new = 5 
+2020-05-05 17:32:17,158 [   1732]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.source.module.name'; old = -1, new = 2 
+2020-05-05 17:32:17,160 [   1734]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.null.method.argument'; old = -1, new = 4097 
+2020-05-05 17:32:17,165 [   1739]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.simple.property'; old = -1, new = 3 
+2020-05-05 17:32:17,168 [   1742]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.fun.expression'; old = -1, new = 4100 
+2020-05-05 17:32:17,172 [   1746]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.binary.plus.expression'; old = -1, new = 4099 
+2020-05-05 17:32:17,177 [   1751]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'RefQueueIndex'; old = -1, new = 0 
+2020-05-05 17:32:17,180 [   1754]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'xmlProperties'; old = -1, new = 2 
+2020-05-05 17:32:17,183 [   1757]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'ant-imports'; old = -1, new = 5 
+2020-05-05 17:32:17,187 [   1761]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'groovy.trait.fields'; old = -1, new = 5 
+2020-05-05 17:32:17,188 [   1762]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'groovy.trait.methods'; old = -1, new = 25 
+2020-05-05 17:32:17,190 [   1764]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex'; old = -1, new = 5 
+2020-05-05 17:32:17,194 [   1768]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex'; old = -1, new = 3 
+2020-05-05 17:32:17,197 [   1771]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex'; old = -1, new = 3 
+2020-05-05 17:32:17,200 [   1774]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex'; old = -1, new = 4 
+2020-05-05 17:32:17,204 [   1778]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex'; old = -1, new = 1 
+2020-05-05 17:32:17,212 [   1786]   INFO -                         STDOUT - Starting searchable options index builder 
+2020-05-05 17:32:17,212 [   1786]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex'; old = -1, new = 1 
+2020-05-05 17:32:17,215 [   1789]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex'; old = -1, new = 5 
+2020-05-05 17:32:17,218 [   1792]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,222 [   1796]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex'; old = -1, new = 1 
+2020-05-05 17:32:17,226 [   1800]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex'; old = -1, new = 4 
+2020-05-05 17:32:17,229 [   1803]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'com.intellij.uiDesigner.FormClassIndex'; old = -1, new = 0 
+2020-05-05 17:32:17,232 [   1806]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'IdeaPluginRegistrationIndex'; old = -1, new = 3 
+2020-05-05 17:32:17,235 [   1809]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'PluginIdModuleIndex'; old = -1, new = 1 
+2020-05-05 17:32:17,238 [   1812]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'PluginIdDependenciesIndex'; old = -1, new = 1 
+2020-05-05 17:32:17,240 [   1814]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'devkit.ExtensionPointIndex'; old = -1, new = 0 
+2020-05-05 17:32:17,249 [   1823]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'JavaFxControllerClassIndex'; old = -1, new = 1 
+2020-05-05 17:32:17,254 [   1828]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'javafx.id.name'; old = -1, new = 2 
+2020-05-05 17:32:17,258 [   1832]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'javafx.custom.component'; old = -1, new = 1 
+2020-05-05 17:32:17,263 [   1837]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'editorconfig.index.name'; old = -1, new = 5 
+2020-05-05 17:32:17,273 [   1847]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'BindingXmlIndex'; old = -1, new = 7 
+2020-05-05 17:32:17,280 [   1854]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'yaml.keys.name'; old = -1, new = 1 
+2020-05-05 17:32:17,288 [   1862]   INFO - il.indexing.FileBasedIndexImpl - Indices to be rebuilt after corruption:FilenameIndex,FrameworkDetectionIndex,TodoIndex,IdIndex,filetypes,Stubs,Trigram.Index,fileIncludes,DomFileIndex,RelaxSymbolIndex,XmlTagNames,XmlNamespaces,html5.custom.attributes.index,SchemaTypeInheritance,json.file.root.values,ImageFileInfoIndex,XsltSymbolIndex,bytecodeAnalysis,java.auto.module.name,java.source.module.name,java.null.method.argument,java.simple.property,java.fun.expression,java.binary.plus.expression,RefQueueIndex,xmlProperties,ant-imports,groovy.trait.fields,groovy.trait.methods,org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex,org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex,org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex,com.intellij.uiDesigner.FormClassIndex,IdeaPluginRegistrationIndex,PluginIdModuleIndex,PluginIdDependenciesIndex,devkit.ExtensionPointIndex,JavaFxControllerClassIndex,javafx.id.name,javafx.custom.component,editorconfig.index.name,BindingXmlIndex,yaml.keys.name 
+2020-05-05 17:32:17,292 [   1866]   INFO - leBasedIndexDataInitialization - Initialization done: 595 
+2020-05-05 17:32:17,333 [   1907]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'dom.namespaceKey'; old = -1, new = 1 
+2020-05-05 17:32:17,336 [   1910]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'dom.elementClass'; old = -1, new = 0 
+2020-05-05 17:32:17,338 [   1912]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.module.name'; old = -1, new = 4 
+2020-05-05 17:32:17,339 [   1913]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.method.parameter.types'; old = -1, new = 3 
+2020-05-05 17:32:17,341 [   1915]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.class.extlist'; old = -1, new = 3 
+2020-05-05 17:32:17,342 [   1916]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.class.shortname'; old = -1, new = 4 
+2020-05-05 17:32:17,344 [   1918]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'jvm.static.member.type'; old = -1, new = 2 
+2020-05-05 17:32:17,345 [   1919]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'jvm.static.member.name'; old = -1, new = 2 
+2020-05-05 17:32:17,347 [   1921]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.method.name'; old = -1, new = 2 
+2020-05-05 17:32:17,349 [   1923]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.class.fqn'; old = -1, new = 1 
+2020-05-05 17:32:17,350 [   1924]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.field.name'; old = -1, new = 2 
+2020-05-05 17:32:17,352 [   1926]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.anonymous.baseref'; old = -1, new = 2 
+2020-05-05 17:32:17,354 [   1928]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'java.annotations'; old = -1, new = 2 
+2020-05-05 17:32:17,355 [   1929]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'markdown.header'; old = -1, new = 2 
+2020-05-05 17:32:17,358 [   1932]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'properties.index'; old = -1, new = 2 
+2020-05-05 17:32:17,359 [   1933]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.class.fqn'; old = -1, new = 1 
+2020-05-05 17:32:17,361 [   1935]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.script.fqn'; old = -1, new = 2 
+2020-05-05 17:32:17,363 [   1937]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.field.name'; old = -1, new = 2 
+2020-05-05 17:32:17,364 [   1938]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.method.name'; old = -1, new = 2 
+2020-05-05 17:32:17,366 [   1940]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.annot.method.name'; old = -1, new = 2 
+2020-05-05 17:32:17,367 [   1941]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.annot.members'; old = -1, new = 2 
+2020-05-05 17:32:17,369 [   1943]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.script.class'; old = -1, new = 2 
+2020-05-05 17:32:17,371 [   1945]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.class.super'; old = -1, new = 2 
+2020-05-05 17:32:17,372 [   1946]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'gr.anonymous.class'; old = -1, new = 3 
+2020-05-05 17:32:17,374 [   1948]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,375 [   1949]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,377 [   1951]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,379 [   1953]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,380 [   1954]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,382 [   1956]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,384 [   1958]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,386 [   1960]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,388 [   1962]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,390 [   1964]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,391 [   1965]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,393 [   1967]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,394 [   1968]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,396 [   1970]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,399 [   1973]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,401 [   1975]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex'; old = -1, new = 3 
+2020-05-05 17:32:17,403 [   1977]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,404 [   1978]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,406 [   1980]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,408 [   1982]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,410 [   1984]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,413 [   1987]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,415 [   1989]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,418 [   1992]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,420 [   1994]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,422 [   1996]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,426 [   2000]   INFO - il.indexing.FileBasedIndexImpl - index version changed for 'org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex'; old = -1, new = 2 
+2020-05-05 17:32:17,429 [   2003]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey,dom.elementClass,java.annotations,java.class.extlist,java.field.name,java.method.name,jvm.static.member.name,jvm.static.member.type,java.anonymous.baseref,java.method.parameter.types,java.class.shortname,java.class.fqn,java.module.name,markdown.header,properties.index,gr.class.fqn,gr.script.fqn,gr.field.name,gr.method.name,gr.annot.method.name,gr.annot.members,gr.script.class,gr.class.super,gr.anonymous.class,org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex,org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex,org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex 
+2020-05-05 17:32:17,429 [   2003]   INFO - exImpl$StubIndexInitialization - Initialization done: 136 
+2020-05-05 17:32:17,602 [   2176]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.p9.show.roots.in.file.chooser, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, copy.reference.popup, new.large.text.file.viewer, property.value.inplace.editing 
+2020-05-05 17:32:17,702 [   2276]  ERROR - openapi.options.ConfigurableEP - While loading class com.google.googlejavaformat.intellij.GoogleJavaFormatConfigurable: com/google/googlejavaformat/intellij/GoogleJavaFormatConfigurable has been compiled by a more recent version of the Java Runtime (class file version 57.0), this version of the Java Runtime only recognizes class file versions up to 55.0 [Plugin: google-java-format] [Plugin: google-java-format] 
+com.intellij.diagnostic.PluginException: While loading class com.google.googlejavaformat.intellij.GoogleJavaFormatConfigurable: com/google/googlejavaformat/intellij/GoogleJavaFormatConfigurable has been compiled by a more recent version of the Java Runtime (class file version 57.0), this version of the Java Runtime only recognizes class file versions up to 55.0 [Plugin: google-java-format] [Plugin: google-java-format]
+	at com.intellij.openapi.options.ConfigurableEP.createProducer(ConfigurableEP.java:299)
+	at com.intellij.openapi.util.AtomicNotNullLazyValue$1.compute(AtomicNotNullLazyValue.java:59)
+	at com.intellij.openapi.util.AtomicNotNullLazyValue.getValue(AtomicNotNullLazyValue.java:37)
+	at com.intellij.openapi.options.ConfigurableEP.canCreateConfigurable(ConfigurableEP.java:342)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.wrapConfigurable(ConfigurableWrapper.java:34)
+	at com.intellij.openapi.options.ex.ConfigurableExtensionPointUtil.getConfigurables(ConfigurableExtensionPointUtil.java:375)
+	at com.intellij.openapi.options.ex.ConfigurableExtensionPointUtil.lambda$getConfigurableGroup$0(ConfigurableExtensionPointUtil.java:128)
+	at com.intellij.openapi.util.ClearableLazyValue$2.compute(ClearableLazyValue.java:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:45)
+	at com.intellij.openapi.util.AtomicClearableLazyValue.getValue(AtomicClearableLazyValue.java:21)
+	at com.intellij.openapi.options.ex.EpBasedConfigurableGroup.<init>(EpBasedConfigurableGroup.kt:100)
+	at com.intellij.openapi.options.ex.ConfigurableExtensionPointUtil.getConfigurableGroup(ConfigurableExtensionPointUtil.java:127)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.getConfigurables(ShowSettingsUtilImpl.java:61)
+	at com.intellij.ide.ui.search.SearchUtil.processProjectConfigurables(SearchUtil.java:49)
+	at com.intellij.ide.ui.search.TraverseUIStarter.startup(TraverseUIStarter.java:97)
+	at com.intellij.ide.ui.search.TraverseUIStarter.main(TraverseUIStarter.java:80)
+	at com.intellij.openapi.application.ApplicationStarter.main(ApplicationStarter.java:62)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1$1.run(ApplicationLoader.kt:228)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:94)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1.run(ApplicationLoader.kt:227)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:310)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:80)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:128)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:184)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:974)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:847)
+	at com.intellij.ide.IdeEventQueue.lambda$null$8(IdeEventQueue.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:739)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:496)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: com.intellij.diagnostic.PluginException: While loading class com.google.googlejavaformat.intellij.GoogleJavaFormatConfigurable: com/google/googlejavaformat/intellij/GoogleJavaFormatConfigurable has been compiled by a more recent version of the Java Runtime (class file version 57.0), this version of the Java Runtime only recognizes class file versions up to 55.0 [Plugin: google-java-format]
+	at com.intellij.ide.plugins.cl.PluginClassLoader.loadClassInsideSelf(PluginClassLoader.java:262)
+	at com.intellij.ide.plugins.cl.PluginClassLoader.tryLoadingClass(PluginClassLoader.java:205)
+	at com.intellij.ide.plugins.cl.PluginClassLoader.loadClass(PluginClassLoader.java:113)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at com.intellij.openapi.extensions.AbstractExtensionPointBean.findClass(AbstractExtensionPointBean.java:59)
+	at com.intellij.openapi.extensions.AbstractExtensionPointBean.findExtensionClass(AbstractExtensionPointBean.java:48)
+	at com.intellij.openapi.options.ConfigurableEP.createProducer(ConfigurableEP.java:291)
+	... 46 more
+Caused by: java.lang.UnsupportedClassVersionError: com/google/googlejavaformat/intellij/GoogleJavaFormatConfigurable has been compiled by a more recent version of the Java Runtime (class file version 57.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:877)
+	at com.intellij.util.lang.UrlClassLoader._defineClass(UrlClassLoader.java:380)
+	at com.intellij.util.lang.UrlClassLoader.defineClass(UrlClassLoader.java:376)
+	at com.intellij.util.lang.UrlClassLoader._findClass(UrlClassLoader.java:340)
+	at com.intellij.ide.plugins.cl.PluginClassLoader.loadClassInsideSelf(PluginClassLoader.java:259)
+	... 54 more
+2020-05-05 17:32:17,705 [   2279]  ERROR - openapi.options.ConfigurableEP - IntelliJ IDEA 2020.1  Build #IC-201.6668.121 
+2020-05-05 17:32:17,705 [   2279]  ERROR - openapi.options.ConfigurableEP - JDK: 11.0.6; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-05 17:32:17,705 [   2279]  ERROR - openapi.options.ConfigurableEP - OS: Mac OS X 
+2020-05-05 17:32:17,705 [   2279]  ERROR - openapi.options.ConfigurableEP - Plugin to blame: google-java-format version: 2.0.0.5 
+2020-05-05 17:32:17,705 [   2279]  ERROR - openapi.options.ConfigurableEP - Last Action:  
+2020-05-05 17:32:17,743 [   2317]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2020-05-05 17:32:18,393 [   2967]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2020-05-05 17:32:19,617 [   4191]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2020-05-05 17:32:20,324 [   4898]   WARN - Container.ComponentManagerImpl - Do not use constructor injection (requestorClass=com.android.tools.idea.sdk.AndroidSdks) 
+2020-05-05 17:32:21,518 [   6092]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-05-05 17:32:25,588 [  10162]   INFO - ateSettings.impl.UpdateChecker - failed to load plugin descriptions from : Malformed URL:  
+2020-05-05 17:32:25,650 [  10224]   INFO - gins.PluginManagerConfigurable -  
+java.net.MalformedURLException: Malformed URL: 
+	at com.intellij.util.Urls.newFromEncoded(Urls.kt:63)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPlugins(RepositoryHelper.java:101)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPlugins(RepositoryHelper.java:86)
+	at com.intellij.ide.plugins.PluginManagerConfigurable.loadRepositoryPlugins(PluginManagerConfigurable.java:1549)
+	at com.intellij.ide.plugins.PluginManagerConfigurable.access$2000(PluginManagerConfigurable.java:73)
+	at com.intellij.ide.plugins.PluginManagerConfigurable$7.lambda$createPluginsPanel$3(PluginManagerConfigurable.java:382)
+	at com.intellij.util.RunnableCallable.call(RunnableCallable.java:20)
+	at com.intellij.util.RunnableCallable.call(RunnableCallable.java:11)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.call(ApplicationImpl.java:255)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-05 17:32:27,130 [  11704]   INFO - leScriptDefinitionsContributor - [kts] error loading gradle script templates: Project 'Default (Template) Project' isn't linked with Gradle 
+2020-05-05 17:32:27,141 [  11715]   INFO - leScriptDefinitionsContributor - [kts] error loading gradle script templates: Project 'Default (Template) Project' isn't linked with Gradle 
+2020-05-05 17:32:27,142 [  11716]   INFO - leScriptDefinitionsContributor - [kts] error loading gradle script templates: Project 'Default (Template) Project' isn't linked with Gradle 
+2020-05-05 17:32:28,376 [  12950]   INFO -   #com.intellij.util.Restarter - not supported: not a bundle: /Users/Robert/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.1/cbeeb1f1aebd4c9ea8fb5ab990c5904a676fc41a/ideaIC-2020.1 
+2020-05-05 17:32:29,706 [  14280]   INFO -                         STDOUT - Searchable options index builder completed 
+2020-05-05 17:32:29,814 [  14388]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-05-05 17:32:29,824 [  14398]  ERROR - tellij.openapi.util.ObjectTree - Already shutdown 
+java.util.concurrent.RejectedExecutionException: Already shutdown
+	at com.intellij.util.concurrency.BoundedTaskExecutor.execute(BoundedTaskExecutor.java:133)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at com.intellij.openapi.vfs.impl.local.FileWatcher.setWatchRoots(FileWatcher.java:165)
+	at com.intellij.openapi.vfs.impl.local.WatchRootsManager.updateFileWatcher(WatchRootsManager.java:151)
+	at com.intellij.openapi.vfs.impl.local.WatchRootsManager.replaceWatchedRoots(WatchRootsManager.java:75)
+	at com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl.replaceWatchedRoots(LocalFileSystemImpl.java:135)
+	at com.intellij.openapi.vfs.LocalFileSystem.removeWatchedRoots(LocalFileSystem.java:91)
+	at com.intellij.compiler.CompilerManagerImpl.lambda$new$0(CompilerManagerImpl.java:103)
+	at com.intellij.openapi.util.ObjectNode.lambda$execute$0(ObjectNode.java:111)
+	at com.intellij.openapi.util.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:184)
+	at com.intellij.openapi.util.ObjectNode.execute(ObjectNode.java:71)
+	at com.intellij.openapi.util.ObjectNode.lambda$execute$0(ObjectNode.java:95)
+	at com.intellij.openapi.util.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:184)
+	at com.intellij.openapi.util.ObjectNode.execute(ObjectNode.java:71)
+	at com.intellij.openapi.util.ObjectTree.executeAll(ObjectTree.java:134)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:116)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:106)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.dispose(ProjectManagerImpl.java:168)
+	at com.intellij.openapi.util.ObjectNode.lambda$execute$0(ObjectNode.java:111)
+	at com.intellij.openapi.util.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:184)
+	at com.intellij.openapi.util.ObjectNode.execute(ObjectNode.java:71)
+	at com.intellij.openapi.util.ObjectNode.lambda$execute$0(ObjectNode.java:95)
+	at com.intellij.openapi.util.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:184)
+	at com.intellij.openapi.util.ObjectNode.execute(ObjectNode.java:71)
+	at com.intellij.openapi.util.ObjectTree.executeAll(ObjectTree.java:134)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:116)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:106)
+	at com.intellij.serviceContainer.ComponentManagerImpl.dispose(ComponentManagerImpl.kt:846)
+	at com.intellij.openapi.application.impl.ApplicationImpl.dispose(ApplicationImpl.java:350)
+	at com.intellij.openapi.util.ObjectNode.lambda$execute$0(ObjectNode.java:111)
+	at com.intellij.openapi.util.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:184)
+	at com.intellij.openapi.util.ObjectNode.execute(ObjectNode.java:71)
+	at com.intellij.openapi.util.ObjectTree.executeAll(ObjectTree.java:134)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:116)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:106)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$disposeContainer$3(ApplicationImpl.java:181)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:976)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeContainer(ApplicationImpl.java:179)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeSelf(ApplicationImpl.java:200)
+	at com.intellij.openapi.application.impl.ApplicationImpl.doExit(ApplicationImpl.java:621)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:589)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:578)
+	at com.intellij.ide.ui.search.TraverseUIStarter.main(TraverseUIStarter.java:81)
+	at com.intellij.openapi.application.ApplicationStarter.main(ApplicationStarter.java:62)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1$1.run(ApplicationLoader.kt:228)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:94)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1.run(ApplicationLoader.kt:227)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:310)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:80)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:128)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:184)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:974)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:847)
+	at com.intellij.ide.IdeEventQueue.lambda$null$8(IdeEventQueue.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:739)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:496)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-05-05 17:32:29,825 [  14399]  ERROR - tellij.openapi.util.ObjectTree - IntelliJ IDEA 2020.1  Build #IC-201.6668.121 
+2020-05-05 17:32:29,825 [  14399]  ERROR - tellij.openapi.util.ObjectTree - JDK: 11.0.6; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-05 17:32:29,825 [  14399]  ERROR - tellij.openapi.util.ObjectTree - OS: Mac OS X 
+2020-05-05 17:32:29,825 [  14399]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-05-05 17:32:29,825 [  14399]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-05-05 17:32:29,880 [  14454]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2020-05-05 17:32:29,884 [  14458]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-05-05 17:32:29,884 [  14458]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-05-05 17:32:29,890 [  14464]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-05-05 17:32:29,890 [  14464]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-05-05 17:32:29,891 [  14465]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-05-05 17:32:30,203 [  14777]   INFO - plication.impl.ApplicationImpl - Write action Statistics:
+Event number:     0
+Total time spent: 0ms
+Average duration: 0ms
+Median  duration: 0ms
+Max     duration: 0ms (it was 'null') 
+2020-05-05 17:32:30,204 [  14778]   INFO - plication.impl.ApplicationImpl - AnAction.update() Statistics:
+Event number:     0
+Total time spent: 0ms
+Average duration: 0ms
+Median  duration: 0ms
+Max     duration: 0ms (it was 'null') 
+2020-05-05 17:32:30,204 [  14778]   INFO - plication.impl.ApplicationImpl - Global instance threads created counter = 15; ProcessIOExecutorService threads: 0 
+2020-05-05 17:32:30,206 [  14780]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-05-05 17:32:30,211 [  14785]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

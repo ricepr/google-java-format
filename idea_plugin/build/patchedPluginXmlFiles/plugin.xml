@@ -1,0 +1,35 @@
+<idea-plugin url="https://github.com/google/google-java-format/tree/master/idea_plugin">
+  <version>2.0.0.5</version>
+  <description>Formats source code using the google-java-format tool. This version of the plugin uses version 2.0 of the tool.</description>
+  <idea-version since-build="201"/>
+  <id>google-java-format</id>
+  <name>google-java-format</name>
+  <vendor url="https://github.com/google/google-java-format">
+    Google
+  </vendor>
+  <depends>com.intellij.modules.lang</depends>
+  <change-notes>
+    &lt;dl&gt;
+      &lt;dt&gt;1.7.0.5&lt;/dt&gt;
+      &lt;dd&gt;Added a version for 2020.1+ IDEs.&lt;/dd&gt;
+      &lt;dt&gt;1.7.0.4&lt;/dt&gt;
+      &lt;dd&gt;Marked the plugin as being incompatible with 2020.1+ IDEs.&lt;/dd&gt;
+      &lt;dt&gt;1.7.0.3&lt;/dt&gt;
+      &lt;dd&gt;Fixed the plugin on 2019.3 IDEs.&lt;/dd&gt;
+      &lt;dt&gt;1.7.0.2&lt;/dt&gt;
+      &lt;dd&gt;Added support for all IDEs after 2017.3.&lt;/dd&gt;
+      &lt;dt&gt;1.7.0.1&lt;/dt&gt;
+      &lt;dd&gt;Added support for 2019.1 IDEs.&lt;/dd&gt;
+      &lt;dt&gt;1.7.0.0&lt;/dt&gt;
+      &lt;dd&gt;Upgraded to google-java-format 1.7.&lt;/dd&gt;
+    &lt;/dl&gt;
+  </change-notes>
+  <applicationListeners>
+    <listener class="com.google.googlejavaformat.intellij.InitialConfigurationProjectManagerListener" topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    <listener class="com.google.googlejavaformat.intellij.GoogleJavaFormatInstaller" topic="com.intellij.openapi.project.ProjectManagerListener"/>
+  </applicationListeners>
+  <extensions defaultExtensionNs="com.intellij">
+    <projectConfigurable instance="com.google.googlejavaformat.intellij.GoogleJavaFormatConfigurable" id="google-java-format.settings" displayName="google-java-format Settings"/>
+    <projectService serviceImplementation="com.google.googlejavaformat.intellij.GoogleJavaFormatSettings"/>
+  </extensions>
+</idea-plugin>
